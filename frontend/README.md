@@ -1,6 +1,5 @@
 # CADE frontend codebase
-## Introduction
-Codebase for CADE. 
+## Codebase for CADE
 
 It's a revolutionary platform opening the doors for a decentralized internet in this era of blockchain technology, utilizing the full capabilities of Web3. CADE is a serverless network of interconnected peers, syncing and updating in real time. It is basically a serverless blockchain without having to store the huge chain in your memory.
 
