@@ -1,0 +1,3 @@
+# Federity
+
+Federity is a decentralized platform that revolutionizes machine learning by enabling users to upload, improve, and collaborate on models through federated learning, all within a blockchain-powered ecosystem. With a GitHub-like interface, it offers seamless version control and model tracking, while rewarding contributors with tokens based on the accuracy improvements they bring to the models. Users can also trade machine learning models as NFTs and run aggregation nodes, creating a self-sustaining, community-driven marketplace for AI innovation. Federity democratizes access to powerful machine learning tools, incentivizing open collaboration in a decentralized network.
