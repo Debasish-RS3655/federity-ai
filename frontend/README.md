@@ -1,4 +1,4 @@
-# CADE
+# CADE frontend codebase
 ## Introduction
 Codebase for CADE. 
 
@@ -8,5 +8,5 @@ With the aim to host any file on the internet completely for free, CADE allows u
 
 The technology is very similar to IPFS and FileCoin, with the difference being that CADE is very lightweight and can run entirely in the Browser or an App. You do not need a highly powerful server to connect to the network. In the Browser, CADE uses the its local storage and creates Radix Trees for storage in an APP. A single chunk is synced and dynamically replicated across multiple peers, thus making it resilient and non-redundant. Every chunk is encrypted and hashed with the private keys of the user, thus no one other than the owner can read or write the data, unless of course the user grants them permission.
 
-## Objectives
-With our resilient free storage, we aim to enable the COMPLETELY FREE creation of NFTs. Currently only Solana NFTs are supported because of its Compressed NFT program. Compressed NFTS store their data in a Merkle Tree structure where the Merkle root is on-chain in an account and the Merkle leaves are stored in the Solana ledger (which is off chain, but subject to consensus), rather than fully on-chain like conventional NFTs. This reduces the NFT creation cost to 0.0005 SOL per NFT that amounts to 0.0011 INR per NFT, whilst the storage of the NFT's metadata is possible completely free on our platform. 
+## Solana based architecture
+Solana uses Compressed NFTS that store their data in a Merkle Tree structure where the Merkle root is on-chain in an account and the Merkle leaves are stored in the Solana ledger (which is off chain, but subject to consensus), rather than fully on-chain like conventional NFTs. This reduces the NFT creation cost to 0.0005 SOL per NFT that amounts to 0.0011 INR per NFT, whilst the storage of the NFT's metadata is possible completely free on our platform. 
