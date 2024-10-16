@@ -1,0 +1,39 @@
+.feed-gallery {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-box {
+  flex: 1 1 calc(30% - 20px);
+  /* set image width to 33% with gutter */
+  margin: 10px;
+  margin-bottom: 35px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* a single image must appear in one row for smaller screens */
+@media (max-width: 768px) {
+  .image-box {
+    /* image width set to 100 percent for small screens */
+    flex: 1 0 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* two images appear in one row for an intermediate screen size */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .image-box {
+    flex: 1 0 calc(45% - 20px);
+  }
+}

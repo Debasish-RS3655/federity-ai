@@ -1,0 +1,23 @@
+.post-gallery {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-image-box {
+    flex: 1 1 calc(10% - 20px);
+    /* set image width to 33% with gutter */
+    margin: 10px;
+    margin-bottom: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
